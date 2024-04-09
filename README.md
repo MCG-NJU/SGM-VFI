@@ -1,4 +1,4 @@
-# Sparse Global Matching for Video Interpolation for Large Motion
+# Sparse Global Matching for Video Frame Interpolation with Large Motion
 
 <p align="center">
   <a href="https://arxiv.org/" target='_blank'>
@@ -21,6 +21,7 @@
         3. Merge the flow compensation with the initial flows. <br>
         4. Compute the intermediate frame using the flows from 3. and keep refining. 
       </p>
+
 <div align="center">
   <img src="figs/pipeline.png" width="1200"/>
 </div>
