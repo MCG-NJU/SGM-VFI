@@ -1,4 +1,4 @@
-## Sparse Global Matching for Video Interpolation for Large Motion
+# Sparse Global Matching for Video Interpolation for Large Motion
 
 <p align="center">
   <a href="https://arxiv.org/" target='_blank'>
@@ -9,10 +9,12 @@
   </a>
 </p>
 
-<p style="font-size:25px;">
+##
+
+<p style="font-size:30px;">
         <b>TL;DR: </b>We introduce <b>Sparse Global Matching Pipeline</b> for Video Frame Interpolation task: 
       </p>
-      <p style="font-size:20px;">
+      <p style="font-size:25px;">
         0. Estimate intermediate initial flows with local information. <br>
         1. Identify flaws in the initial flows.<br>
         2. Estimate flow compensation by <b>Sparese Global Matching</b>. <br>
@@ -27,7 +29,7 @@ To evaluate the effectiveness of our method in handling large motion, we careful
 Experiments shows that our work can bring improvements when 
 dealing with challenging large motion benchmarks.
 <div align="center">
-  <img src="figs/demo.gif" width="800"/>
+  <img src="figs/demo.gif" width="500"/>
 </div>
 
 ## Training Dataset Preparation
