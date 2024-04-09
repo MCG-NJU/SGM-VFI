@@ -1,15 +1,12 @@
 # Sparse Global Matching for Video Frame Interpolation with Large Motion
-
 <p align="center">
-  <a href="https://arxiv.org/" target='_blank'>
+  <a href="https://github.com/MCG-NJU/SGM-VFI" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-📕-red">
   </a> 
-  <a href="https://entuedu-my.sharepoint.com/:b:/g/personal/tan317_e_ntu_edu_sg/EUeL5VNXA2ZIng1zd-zH_ccBLBvcVpc5dqysriFtseR33A?e=BhhQJk" target='_blank'>
+  <a href="https://sgm-vfi.github.io/" target='_blank'>
     <img src="https://img.shields.io/badge/Project Page-🔗-blue">
   </a>
 </p>
-
-##
 
 <p style="font-size:30px;">
         <b>TL;DR: </b>We introduce <b>Sparse Global Matching Pipeline</b> for Video Frame Interpolation task: 
