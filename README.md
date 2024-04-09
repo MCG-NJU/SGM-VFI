@@ -60,15 +60,15 @@ pip install -r requirements.txt
 ### Pretrained File Preparation
 We provide the pretrained local branch model for a quicker
 launch of sparse global matching. You can download the
-pretrained model [here](TBA:googledrive) and place it in
+pretrained model [here](https://drive.google.com/drive/folders/1S5O6W0a7XQDHgBtP9HnmoxYEzWBIzSJq) and place it in
 `[project_folder]/log/ours-local/ckpt/ours-local.pth`. 
 
 Furthermore, for the global feature extractor [GMFlow](https://github.com/haofeixu/gmflow),
 you can download the pretrained model in [here](https://drive.google.com/file/d/1d5C5cgHIxWGsFR1vYs5XrQbbUiZl9TX2/view?usp=sharing),
 then unzip it and place `gmflow_sintel-0c07dcb3.pth` in `[project_folder]/pretrained/gmflow_sintel-0c07dcb3.pth`.
 
-Finally, for fine-tuning sparse global matching branch, 
-the file folder should look like [this](#jump).
+**Finally, for fine-tuning sparse global matching branch, 
+the file folder should look like [this](#jump).**
 
 ### Finetuning
 After the preparation, you can modify and check the settings in `config.py`,
@@ -89,9 +89,9 @@ torchrun --nproc_per_node=4 train_x4k.py --batch_size 8 --need_patch --train_dat
 ├── pretrained
 │   └── gmflow_sintel-0c07dcb3.pth
 ├── log
-│   └── ours-small
+│   └── ours-local
 │       └── ckpt
-│           └── ours-small.pth
+│           └── ours-local.pth
 └── model
     ├── __init__.py
     ├── flow_estimation_global.py
@@ -129,7 +129,7 @@ In our paper, we analyzed the mean motion magnitude and motion
 sufficiency (the minimum of the top 5% of each pixel’s flow magnitude) 
 in the most frequently used large motion benchmarks.
 <div align="center">
-  <img src="figs/chart.png" width="800"/>
+  <img src="figs/chart.png" width="600"/>
 </div>
 
 ### Evaluation Datasets Preparation
