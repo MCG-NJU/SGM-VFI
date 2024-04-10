@@ -1,4 +1,14 @@
 # Sparse Global Matching for Video Frame Interpolation with Large Motion
+
+<p align="center">
+      <a href="https://scholar.google.com.hk/citations?hl=zh-CN&view_op=list_works&gmla=AKKJWFe0ZBvfA_4yxMRe8BW79xNafjCwXtxN10finOaqV1EREnZGxSX6DbpZelBUJD0GZmp5S7unCf76xrgOfnS6SVA&user=dvUKnKEAAAAJ" target='_blank'>Chunxu Liu*</a>,&nbsp;
+      <a href="https://scholar.google.com.hk/citations?user=48vfuRAAAAAJ&hl=en" target='_blank'>Guozhen Zhang*</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?user=1c9oQNMAAAAJ&hl=en" target='_blank'>Rui Zhao</a>,&nbsp;
+      <a href="https://scholar.google.com.hk/citations?user=HEuN8PcAAAAJ&hl=en" target='_blank'>Limin Wang</a>,&nbsp;
+    <br>
+  Nanjing University, &nbsp; SenseTime Research
+  </p>
+
 <p align="center">
   <a href="https://github.com/MCG-NJU/SGM-VFI" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-📕-red">
