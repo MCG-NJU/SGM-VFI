@@ -10,7 +10,7 @@
   </p>
 
 <p align="center">
-  <a href="https://github.com/MCG-NJU/SGM-VFI" target='_blank'>
+  <a href="http://arxiv.org/abs/2404.06913" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-📕-red">
   </a> 
   <a href="https://sgm-vfi.github.io/" target='_blank'>
