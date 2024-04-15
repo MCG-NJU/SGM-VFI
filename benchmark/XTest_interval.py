@@ -28,7 +28,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--model', default='ours_small', type=str)
 parser.add_argument('--path', type=str, default="./X4K/test", required=True)
 parser.add_argument('--exp_name', type=str, required=True)
-parser.add_argument('--num_key_points', default=0, type=float)
+parser.add_argument('--num_key_points', default=0.5, type=float)
 args = parser.parse_args()
 
 
@@ -40,7 +40,7 @@ if args.model == 'ours_small':
     cfg.MODEL_CONFIG['MODEL_ARCH'] = cfg.init_model_config(
         F=16,
         depth=[2, 2, 2, 4],
-        num_key_points = args.num_key_points
+        num_key_points=args.num_key_points
     )
     print(f'Testing num_key_points: {args.num_key_points}')
 else:

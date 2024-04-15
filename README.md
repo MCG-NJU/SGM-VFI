@@ -177,6 +177,12 @@ python benchmark/Xiph.py --path ./xiph --exp_name ours-1-2-points --num_key_poin
 ```
 (Suggestion: You can use `ln -s path/to/Xiph (project folder)/xiph` to avoid extra processing on the input path name)
 
+#### Simple Inference
+You can try out our simple 2x inference demo with the following command:
+```commandline
+python demo_2x.py 
+```
+(Need to prepare the model checkpoint in `log/ours-1-2-points/ckpt/ours-1-2-points.pth` and the GMFlow pretrained model in `pretrained/gmflow_sintel-0c07dcb3.pth`)
 
 [//]: # (## Citation)
 
@@ -206,6 +212,7 @@ python benchmark/Xiph.py --path ./xiph --exp_name ours-1-2-points --num_key_poin
 
 [//]: # ()
 [//]: # (```)
+
 
 ## License and Acknowledgement
 This project is released under the Apache 2.0 license. 

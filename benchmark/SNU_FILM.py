@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--model', default='ours_small', type=str)
 parser.add_argument('--path', type=str, default="./data/SNU-FILM", required=True)
 parser.add_argument('--exp_name', type=str, required=True)
-parser.add_argument('--num_key_points', default=0.125, type=float)
+parser.add_argument('--num_key_points', default=0.5, type=float)
 args = parser.parse_args()
 
 '''==========import from our code=========='''
@@ -27,7 +27,6 @@ import config as cfg
 from Trainer_x4k import Model
 from benchmark.utils.padder import InputPadder
 from benchmark.utils.pytorch_msssim import ssim_matlab
-
 
 
 '''==========Model setting=========='''
