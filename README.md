@@ -121,7 +121,7 @@ you can start the training process by the following command:
 torchrun --nproc_per_node=4 train_base.py --batch_size 8 --data_path ./vimeo_triplet 
 ```
 
-### Top Related Files:
+### Top Related Files
 ```commandline
 .
 ├── train_base.py
