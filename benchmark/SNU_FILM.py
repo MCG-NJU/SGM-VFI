@@ -58,8 +58,8 @@ model.device()
 print(f'=========================Starting testing=========================')
 print(f'Dataset: SNU_FILM   Model: {model.name}   TTA: {TTA}')
 path = args.path
-# level_list = ['top-half-motion-sufficiency_test-hard.txt', 'top-half-motion-sufficiency_test-extreme.txt']
-level_list = ['top-half-selected_test-hard.txt', 'top-half-selected_test-extreme.txt']
+level_list = ['top-half-motion-sufficiency_test-hard.txt', 'top-half-motion-sufficiency_test-extreme.txt']
+
 for test_file in level_list:
     psnr_list, ssim_list = [], []
     file_list = []
