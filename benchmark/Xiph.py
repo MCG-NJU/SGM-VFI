@@ -48,7 +48,7 @@ model.load_model(args.exp_name)
 model.eval()
 model.device()
 file_list = []
-with open(f"./xiph/top-half-selected-gap2.txt", "r") as f:
+with open(f"./xiph/top-half-motion-sufficiency-gap2.txt", "r") as f:
     for line in f:
         line = line.strip()
         file_list.append(line.split(' '))
