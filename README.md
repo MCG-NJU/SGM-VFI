@@ -184,37 +184,23 @@ python demo_2x.py
 ```
 (Need to prepare the model checkpoint in `log/ours-1-2-points/ckpt/ours-1-2-points.pth` and the GMFlow pretrained model in `pretrained/gmflow_sintel-0c07dcb3.pth`)
 
-[//]: # (## Citation)
 
-[//]: # ()
-[//]: # (```commandline)
+## Citation
 
-[//]: # ()
-[//]: # (@inproceedings{liu2024sparse,)
+If you think this project is helpful in your research or for application, please feel free to leave a star⭐️ and cite our paper:
 
-[//]: # ()
-[//]: # (  title={Sparse Global Matching for Video Frame Interpolation with Large Motion},)
-
-[//]: # ()
-[//]: # (  author={Liu, Chunxu and Zhang, Guozhen and Zhao, Rui and Wang, Limin},)
-
-[//]: # ()
-[//]: # (  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},)
-
-[//]: # ()
-[//]: # (  pages={xxxx-xxxx},)
-
-[//]: # ()
-[//]: # (  year={2024})
-
-[//]: # ()
-[//]: # (})
-
-[//]: # ()
-[//]: # (```)
-
+```
+@InProceedings{Liu_2024_CVPR,
+    author    = {Liu, Chunxu and Zhang, Guozhen and Zhao, Rui and Wang, Limin},
+    title     = {Sparse Global Matching for Video Frame Interpolation with Large Motion},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {19125-19134}
+}
+```
 
 ## License and Acknowledgement
 This project is released under the Apache 2.0 license. 
-The codes are based on GMFlow, RAFT, EMA-VFI, RIFE, IFRNet. 
-Please also follow their licenses. Thanks for their awesome works.
+The codes are based on [GMFlow](https://github.com/haofeixu/gmflow), [RAFT](https://github.com/princeton-vl/RAFT), [EMA-VFI](https://github.com/MCG-NJU/EMA-VFI), [RIFE](https://github.com/hzwer/ECCV2022-RIFE), [IFRNet](https://github.com/ltkong218/IFRNet). 
+Please also follow their licenses. Thanks for their awesome works!
